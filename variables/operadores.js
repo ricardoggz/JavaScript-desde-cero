@@ -41,6 +41,6 @@ var valor5 = 0.5;
 console.log(valor4 > valor5);//El operqador > imprimirá "true" si la variable antes de ">" es mayor a la variable despues de ">", de lo contrario imprimirá "false"
 
 
-console.log(valor4 < valor5)//El operdor < imprimirá "true" si la variable antes de "<" es menor a la variable despues de "<", de lo contrario imprimirá "false"
+console.log(valor4 < valor5);//El operdor < imprimirá "true" si la variable antes de "<" es menor a la variable despues de "<", de lo contrario imprimirá "false"
 
 
