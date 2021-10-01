@@ -11,5 +11,5 @@ var numero2 = '21.523456s';
 var resultado3 = Number.parseFloat(numero2); //parseFloat convertirá el valor de la variable, ya sea numeros o cadena de texto a un valor flotante
 console.log(resultado3);
 
-var toFixed = resultado3.toFixed(3);
+var toFixed = resultado3.toFixed(3); //toFixed nos permite elegir el numero de decimales que queremos que tenga nuestra variable
 console.log(toFixed);
