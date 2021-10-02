@@ -10,8 +10,12 @@ if(edad==18){//Las condicionales son acciones que se ejecutan si se cumple una d
 let mayor = 17;
 if(mayor>=18){
     console.log('Mayor')
-}else if(mayor==18){//Else if lo podemos utlizar para ejecutar varias condiciones diferentes
+}
+
+else if(mayor==18){//Else if lo podemos utlizar para ejecutar varias condiciones diferentes
     console.log('Casi es mayor');
-}else if(mayor=17){
+}
+
+else if(mayor=17){
     console.log('Te falta 1 para ser mayor');
 }
