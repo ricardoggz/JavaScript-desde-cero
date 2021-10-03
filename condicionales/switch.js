@@ -11,8 +11,11 @@ switch (opcion) {
 
 
     default:
+        console.log('Default');
         break;
 }
+
+//Los switch también pueden recibir datos de tipo string:
 
 let nombre = 'Ricardo';
 let apellido = 'Guevara';
@@ -26,6 +29,6 @@ switch(apellido){
         break;
 
     default:
-        break;
-    
+        console.log('Default');
+        break;  
 }
