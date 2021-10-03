@@ -51,5 +51,18 @@ for(i=0; i<Miarreglo.length; i++){
     console.log('Me llamo: ' + mostrarNombre + ' Mi edad es: ' + mostrarEdad + ' años de edad, ' +  ' Mi género es: ' + mostrarGenero);
 }
 
+//foreach
+//El método forEach() ejecuta la función indicada una vez por cada elemento del array.
+//el método foreach() son especiales para los arreglos
+
+const objetoForeach = {
+    nombre: 'José',
+    apellido: 'Guzmán',
+    edad: 21
+}
+const arregloForeach = ['Hola', 'Adiós', objetoForeach];
+arregloForeach.forEach(element => console.log(element));
+
+
 
 
