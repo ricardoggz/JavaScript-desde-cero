@@ -1,0 +1,28 @@
+1._ ¿Qué es una variable y para que sirve?
+
+Una variable es un campo donde almacenamos un valor, ya sea de tipo texto, tipo number o cualquier tipo de variable, sirve para declarar acciones que podemos ejecutar en otros bloques de código.
+
+2._ ¿Cuál es la diferencia entre declarar e inicializar una variable?
+
+Declarar una variable es asignarle solamente un valor o un tipo de dato, incluso declarar alguna función, un arreglo, un objeto, etc.
+
+E inicializar una variable es darle vida o ejecutar dicha variable que hemos declarado, si no inicializamos las variables no tienen ningun tipo de valor en nuestro código.
+
+3._ ¿Cuál es la diferencia entre sumar números y concatenar strings? 
+
+Dependiendo el tipo de variable, es decir, cuando sumamos números, normalmente agregamos variables de tipo 'number', a dichas variables les damos el signo de '+' para sumarlas.
+Por ejemplo:
+
+var numero = 1; //Declaramos una variable de tipo number
+var suma = numero + 1;
+console.log(suma);
+
+Cuando concatenamos strings no solo utilizamos el signo de '+', sino también una coma:
+
+var edad = 21;
+console.log('Hola a todos' , +  ' Mi edad es ' + edad) //asi concatenamos strings incluso con variables de tipo number
+
+
+
+
+
