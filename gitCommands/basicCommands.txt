@@ -1,0 +1,8 @@
+git config --global: configurar git 
+git clone = clonar repositorio
+git commit = Describir los cambios que se implementaron
+git push origin main: empujar cambios al repositorio remoto
+git fetch: descargar los metadata del repositorio remoto al local
+git pull origin main: jalar los archivos del repositorio remoto al local
+git branch = crear nueva rama
+git checkout + nombre de nueva rama = moverme a la rama que cree
