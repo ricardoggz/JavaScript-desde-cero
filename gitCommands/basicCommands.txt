@@ -1,4 +1,5 @@
-git config --global: configurar git 
+git config --global: configurar git // git config --global user.name "Mi nombre"
+// git config --global user.email "micorreo@correo.com"
 git clone = clonar repositorio
 git commit = Describir los cambios que se implementaron
 git push origin main: empujar cambios al repositorio remoto
