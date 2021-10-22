@@ -10,7 +10,7 @@ git checkout + nombre de nueva rama = moverme a la rama que cree
 git reset --hard: resetear el código al ultimo commit que se hizo
 git checkout HEAD --main.c : resetear cambios en la rama principal (main) 
 git log: revisar el historial de cambios y commits en la rama actual
-git log --oneline: ver el historial resumido, literal en una sola line por commit
+git log --oneline: ver el historial resumido, literal en una sola linea por commit
 git log --oneline --graph : ver el historial de commits resumido en forma de grafo
 //Para regresar a un commit anterior, es necesario ver el historial de commits, copiar el numero del commit y ejecutarlo con un git checkout
 

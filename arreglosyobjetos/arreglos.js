@@ -63,3 +63,5 @@ let nuevoArreglo = [1, 2, 3, 4, 5];
 nuevoArreglo.splice(-3, 2);//Ahora la posición empieza a la inversa: -1,-2,-3,etc.
 console.log(nuevoArreglo);
 
+
+
