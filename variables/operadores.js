@@ -44,3 +44,12 @@ console.log(valor4 > valor5);//El operqador > imprimirá "true" si la variable a
 console.log(valor4 < valor5);//El operdor < imprimirá "true" si la variable antes de "<" es menor a la variable despues de "<", de lo contrario imprimirá "false"
 
 
+
+//operador ternario: Nos permite declarar condiciones de manera más sencilla que utilizar if y else
+
+const acreditacion = 9;
+
+const mensajeAcreditacion = acreditacion <= 5 ? "Reprobaste  :(" : "Aprobaste :)";
+console.log(mensajeAcreditacion);
+
+

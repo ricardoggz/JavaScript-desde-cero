@@ -1,4 +1,6 @@
 //Funciones de flecha o arrow functions
+//Las arrowfunctions no deben invocarse
+//Son más faciles de leer, de declarar y de utilizar
 
 var acceso = true;
 var accesoUsuario = a => a; //retorna un valor
