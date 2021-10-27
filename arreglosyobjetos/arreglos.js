@@ -10,7 +10,7 @@ console.log(array[0,2]);
 
 let arreglo2 = ['Nombre: Ricardo', ['edad: 21 años', 'sexo: masculino']];
 //mandamos a imprimir el arreglo dentro de "let arreglo2" conforme a su posición iniciando desde 0:
-console.log(arreglo2[0,1][1]);//agregamos otros corchetes para acceder a cualquier posición de nuestro arreglo que está dentro del arreglo principal
+console.log(arreglo2[0,1][1]); //agregamos otros corchetes para acceder a cualquier posición de nuestro arreglo que está dentro del arreglo principal
 
 //Un arreglo también puede recibir un objeto:
 
@@ -62,6 +62,37 @@ console.log(letras)
 let nuevoArreglo = [1, 2, 3, 4, 5];
 nuevoArreglo.splice(-3, 2);//Ahora la posición empieza a la inversa: -1,-2,-3,etc.
 console.log(nuevoArreglo);
+
+
+//funcion map en arrays
+//map nos permite recorrer los valores dentro de nuestrto arreglo
+
+let MyArray =['email: email@email.com', 'password: mypassword'];
+
+ MyArray.map((Array)=>
+ console.log(Array));
+
+ //destructuracion con map
+
+ let [, password] = ['email: email@email.com', 'password: mypassword'];
+ console.log(password);
+
+
+ //operador spread en areglos
+
+ const frutasDulces = ['manzana', 'melon', 'sandia'];
+ const frutasCitricas = ['limon', 'toronja', 'mandarina'];
+
+ //el operador srpead nos permite combinar arrays y crear uno nuevo
+ //sintaxis : (... miArreglo, ... miOtroarreglo);
+
+ //resultado:
+ 
+ console.log(... frutasDulces, ... frutasCitricas);
+
+
+
+
 
 
 

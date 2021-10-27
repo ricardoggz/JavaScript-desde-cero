@@ -53,3 +53,5 @@ const mensajeAcreditacion = acreditacion <= 5 ? "Reprobaste  :(" : "Aprobaste :)
 console.log(mensajeAcreditacion);
 
 
+
+
