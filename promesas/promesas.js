@@ -18,8 +18,8 @@ const promesa = (a, b)=>{
 
 }
 
-let resultado = promesa(5, 3).then((resInvalid)=>{
-    console.log(resInvalid);
+let resultado = promesa(5, 3).then((res)=>{
+    console.log(res);
 
 }).catch((error)=>{
     console.log(error);
